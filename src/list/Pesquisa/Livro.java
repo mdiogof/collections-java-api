@@ -1,0 +1,33 @@
+package list.Pesquisa;
+
+public class Livro {
+    // Classe usada pelo CatalogoLivros
+    private final String titulo;
+    private final String autor;
+    private final int anoPublicacao;
+
+    public Livro(String titulo, String autor, int anoPublicacao) {
+        this.anoPublicacao = anoPublicacao;
+        this.autor = autor;
+        this.titulo = titulo;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
+    public int getAnoPublicacao() {
+        return anoPublicacao;
+    }
+
+    @Override
+    public String toString() {
+        return "Livro [titulo=" + titulo + ", autor=" + autor + ", anoPublicacao=" + anoPublicacao + "]";
+    }
+
+    
+}
