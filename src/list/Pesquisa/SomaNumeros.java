@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class SomaNumeros {
+    // Desafio resolvido por conta própria
     private final List<Integer> inteirosList;
 
     public SomaNumeros() {

@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class OrdenacaoNumeros {
+    // Desafio resolvido por conta própria
     private final List<Integer> inteirosList;
 
     public OrdenacaoNumeros() {
